@@ -26,4 +26,13 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="manual_check_in">Manual Check In</string>
+    <string name="id_proof_given">ID Proof Given</string>
+    <string name="last_name_label">Last Name</string>
+    <string name="first_name_label">First Name</string>
+    <string name="comments_label">Comments (optional)</string>
+    <string name="check_in_label">Check In</string>
+    <string name="sign_up_label">Sign Up</string>
+    <string name="check_mark_description">Check Mark</string>
+    <string name="cross_mark_description">Cross Mark</string>
 </resources>

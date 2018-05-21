@@ -23,7 +23,7 @@
                 <AutoCompleteTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/first_name_label"
+                    android:hint="First Name"
                     android:maxLines="1"
                     android:singleLine="true"
                     />
@@ -35,7 +35,7 @@
                 <AutoCompleteTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/last_name_label"
+                    android:hint="Last Name"
                     android:maxLines="1"
                     android:singleLine="true"
                     />
@@ -44,21 +44,19 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="116dp"
-                android:hint="@string/comments_label"
-                android:inputType="text" />
+                android:hint="Comments (optional)"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:paddingVertical="@dimen/activity_padding_vertical">
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/id_proof_given"
                     android:textSize="@dimen/font_size_regular"
-                    android:textColor="@color/light_gray"
+                    android:textColor="#9D9D9D"
                     android:paddingRight="@dimen/font_padding_regular"
                     android:paddingLeft="@dimen/font_padding_half"
                     android:paddingStart="@dimen/font_padding_half"
@@ -75,9 +73,9 @@
                 android:id="@+id/admin_sign_in"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/activity_padding_vertical"
+                android:layout_marginTop="16dp"
                 android:text="@string/manual_check_in"
-                android:onClick="capturePhoto" />
+                android:onClick="capturePhoto"/>
 
         </LinearLayout>
     </ScrollView>
