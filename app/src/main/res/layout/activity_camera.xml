@@ -17,10 +17,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:text="Capture Photo"
+            android:layout_alignParentLeft="true"
+            android:text="@string/capture_photo"
             android:onClick="capturePhoto"/>
 
+        <Button
+            android:id="@+id/failPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/unsuccessful_verification"
+            android:onClick="failVerification"/>
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

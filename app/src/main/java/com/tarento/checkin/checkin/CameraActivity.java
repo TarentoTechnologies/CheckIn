@@ -14,7 +14,13 @@ public class CameraActivity extends AppCompatActivity {
     }
 
     public void capturePhoto(View view) {
-        Intent intent = new Intent(this, LoginSuccessActivity.class);
+        Intent intent = new Intent(this, SuccessfulLoginActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
+    public void failVerification(View view) {
+        Intent intent =new Intent(this, UnsuccessfulLoginActivity.class);
         startActivity(intent);
         finish();
     }

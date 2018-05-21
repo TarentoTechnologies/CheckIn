@@ -1,7 +1,18 @@
 <resources>
+    <!-- App Wide String Names -->
     <string name="app_name">Check In</string>
     <string name="title_activity_login">Sign in</string>
-    <string name="login_new_user">Log in another user</string>
+
+    <!-- Button String Names -->
+    <string name="login_new_user">Log In Another User</string>
+    <string name="call_admin">Call Admin</string>
+    <string name="try_again">Try Again</string>
+    <string name="capture_photo">Capture Photo</string>
+    <string name="unsuccessful_verification">Unsuccessful Verification</string>
+
+    <!-- Descriptive Text -->
+    <string name="successful_login">Successful Login</string>
+    <string name="unsuccessful_login">Unsuccessful Login</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
