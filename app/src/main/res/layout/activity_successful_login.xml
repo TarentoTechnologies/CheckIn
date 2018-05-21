@@ -4,20 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginSuccessActivity">
+    tools:context=".SuccessfulLoginActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="@dimen/activity_vertical_margin"
+        android:padding="@dimen/activity_padding_vertical"
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
             android:src="@drawable/check_circle_black"
-            android:layout_margin="50dp" />
+            android:layout_margin="50dp"
+            android:contentDescription="@string/check_mark_description" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="@dimen/font_size_large"
+            android:layout_marginBottom="@dimen/activity_padding_vertical"
+            android:text="@string/successful_login"/>
 
         <Button
             android:layout_width="match_parent"
