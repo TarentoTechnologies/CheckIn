@@ -16,6 +16,7 @@ public class UnsuccessfulLoginActivity extends AppCompatActivity {
     public void callAdmin(View view) {
         Intent intent = new Intent(this, AdminCheckIn.class);
         startActivity(intent);
+        finish();
     }
 
     public void tryAgain(View view) {

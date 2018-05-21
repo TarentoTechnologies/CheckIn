@@ -8,7 +8,7 @@
     <string name="call_admin">Call Admin</string>
     <string name="try_again">Try Again</string>
     <string name="capture_photo">Capture Photo</string>
-    <string name="unsuccessful_verification">Unsuccessful Verification</string>
+    <string name="unsuccessful_verification">Fail verification (debug)</string>
 
     <!-- Descriptive Text -->
     <string name="successful_login">Successful Login</string>
