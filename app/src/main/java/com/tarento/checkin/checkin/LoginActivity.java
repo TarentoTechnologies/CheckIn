@@ -3,6 +3,7 @@ package com.tarento.checkin.checkin;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -185,8 +186,15 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             // Show a progress spinner, and kick off a background task to
             // perform the user login attempt.
             showProgress(true);
-            mAuthTask = new UserLoginTask(email, password);
-            mAuthTask.execute((Void) null);
+
+            // TODO replace with firebase authentication
+            Intent intent = new Intent(this, CameraActivity.class);
+            startActivity(intent);
+            finish();
+
+            // TODO firebase user authentication
+            // mAuthTask = new UserLoginTask(email, password);
+            // mAuthTask.execute((Void) null);
         }
     }
 
@@ -277,6 +285,12 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                         android.R.layout.simple_dropdown_item_1line, emailAddressCollection);
 
         mEmailView.setAdapter(adapter);
+    }
+
+    public void authenticateFace(View view) {
+        Intent intent = new Intent(this, CameraActivity.class);
+        startActivity(intent);
+        finish();
     }
 
 
