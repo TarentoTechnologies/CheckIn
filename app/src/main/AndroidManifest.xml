@@ -145,6 +145,22 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".OrganizationActivity" />
         </activity>
+        <activity
+            android:name=".CreateShiftActivity"
+            android:label="@string/create_shift_label"
+            android:parentActivityName=".ShiftActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ShiftActivity" />
+        </activity>
+        <activity
+            android:name=".EditShiftActivity"
+            android:label="@string/edit_shift_label"
+            android:parentActivityName=".ShiftActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ShiftActivity" />
+        </activity>
     </application>
 
 </manifest>

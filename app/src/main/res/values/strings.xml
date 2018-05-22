@@ -60,4 +60,6 @@
     <string name="admin_options_label">Administrative Options</string>
     <string name="create_organization_label">Create New Organization</string>
     <string name="edit_organization_label">Edit Existing Organization</string>
+    <string name="create_shift_label">Create New Shift</string>
+    <string name="edit_shift_label">Edit Existing Shift</string>
 </resources>
