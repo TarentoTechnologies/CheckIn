@@ -54,4 +54,8 @@
     <string name="register_label">Register</string>
     <string name="admin_privilege_label">Admin Privileges</string>
     <string name="registration_successful_label">Registration Successful</string>
+    <string name="organization_options_label">Create and Edit Organizations</string>
+    <string name="shift_options_label">Create and Edit Shifts</string>
+    <string name="check_in_options_label">View and Export Check Ins</string>
+    <string name="admin_options_label">Administrative Options</string>
 </resources>

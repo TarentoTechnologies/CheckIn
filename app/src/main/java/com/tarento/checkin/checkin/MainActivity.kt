@@ -21,4 +21,9 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, RegistrationActivity::class.java)
         startActivity(intent)
     }
+
+    fun adminOptions(view: View) {
+        val intent = Intent(this, AdminOptions::class.java)
+        startActivity(intent)
+    }
 }

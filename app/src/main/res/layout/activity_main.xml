@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="@dimen/activity_padding"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -14,7 +15,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="@dimen/activity_padding_horizontal"
             android:gravity="center_horizontal">
 
             <Button
@@ -28,9 +28,14 @@
                 android:id="@+id/signUp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
                 android:text="@string/title_activity_registration"
                 android:onClick="signUp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/admin_options_label"
+                android:onClick="adminOptions"/>
         </LinearLayout>
     </ScrollView>
 

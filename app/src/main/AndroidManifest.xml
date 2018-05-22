@@ -34,14 +34,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoginActivity"
-            android:label="@string/title_activity_login"
-            android:parentActivityName=".MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
-        <activity
             android:name=".CameraLoginActivity"
             android:label="@string/capture_photo_label"
             android:parentActivityName=".MainActivity">
@@ -95,6 +87,46 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".RegistrationActivity" />
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".AdminOptions"
+            android:label="@string/admin_options_label"
+            android:parentActivityName=".LoginActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginActivity" />
+        </activity>
+        <activity
+            android:name=".OrganizationActivity"
+            android:label="@string/organization_options_label"
+            android:parentActivityName=".AdminOptions">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AdminOptions" />
+        </activity>
+        <activity
+            android:name=".ShiftActivity"
+            android:label="@string/shift_options_label"
+            android:parentActivityName=".AdminOptions">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AdminOptions" />
+        </activity>
+        <activity
+            android:name=".CheckInActivity"
+            android:label="@string/check_in_options_label"
+            android:parentActivityName=".AdminOptions">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AdminOptions" />
         </activity>
     </application>
 

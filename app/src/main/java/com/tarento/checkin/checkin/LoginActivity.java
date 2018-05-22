@@ -188,7 +188,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             showProgress(true);
 
             // TODO replace with firebase authentication
-            Intent intent = new Intent(this, CameraLoginActivity.class);
+            Intent intent = new Intent(this, AdminOptions.class);
             startActivity(intent);
             finish();
 
