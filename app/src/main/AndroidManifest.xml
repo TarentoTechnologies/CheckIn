@@ -59,6 +59,7 @@
         </activity>
         <activity
             android:name=".AdminCheckIn"
+            android:label="@string/manual_check_in"
             android:parentActivityName=".UnsuccessfulLoginActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

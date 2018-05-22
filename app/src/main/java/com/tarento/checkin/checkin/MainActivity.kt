@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun adminOptions(view: View) {
-        val intent = Intent(this, AdminOptions::class.java)
+        val intent = Intent(this, LoginActivity::class.java)
         startActivity(intent)
     }
 }
