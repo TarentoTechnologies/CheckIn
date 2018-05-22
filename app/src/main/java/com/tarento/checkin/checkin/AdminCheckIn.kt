@@ -13,7 +13,12 @@ class AdminCheckIn : AppCompatActivity() {
     }
 
     fun capturePhoto(view: View) {
-        val intent = Intent(this, CameraLoginActivity::class.java)
+        val intent = Intent(this, CameraRegistrationActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun manualCheckIn(view: View) {
+        val intent = Intent(this, SuccessfulLoginActivity::class.java)
         startActivity(intent)
         finish()
     }

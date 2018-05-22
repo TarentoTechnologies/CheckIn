@@ -54,7 +54,8 @@
                 android:paddingVertical="@dimen/activity_padding_vertical">
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:layout_height="wrap_content"
                     android:text="@string/id_proof_given"
                     android:textSize="@dimen/font_size_regular"
@@ -64,7 +65,8 @@
                     android:paddingStart="@dimen/font_padding_half"
                     android:paddingEnd="@dimen/font_padding_regular" />
                 <CheckBox
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
                     android:layout_height="match_parent"
                     android:checked="false"
                     android:clickable="true"
@@ -72,12 +74,18 @@
             </LinearLayout>
 
             <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_padding_vertical"
+                android:text="@string/capture_photo_label"
+                android:onClick="capturePhoto" />
+            <Button
                 android:id="@+id/admin_sign_in"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/activity_padding_vertical"
                 android:text="@string/manual_check_in"
-                android:onClick="capturePhoto" />
+                android:onClick="manualCheckIn" />
 
         </LinearLayout>
     </ScrollView>
