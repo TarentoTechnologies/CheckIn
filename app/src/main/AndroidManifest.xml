@@ -42,18 +42,18 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:name=".CameraActivity"
-            android:parentActivityName=".LoginActivity">
+            android:name=".CameraLoginActivity"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".LoginActivity" />
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".SuccessfulLoginActivity"
-            android:parentActivityName=".CameraActivity">
+            android:parentActivityName=".CameraLoginActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".CameraActivity" />
+                android:value=".CameraLoginActivity" />
         </activity>
         <activity android:name=".UnsuccessfulLoginActivity" />
         <activity
@@ -74,6 +74,14 @@
         <activity
             android:name=".SuccessfulRegistrationActivity"
             android:label="@string/registration_successful_label"
+            android:parentActivityName=".RegistrationActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RegistrationActivity" />
+        </activity>
+        <activity
+            android:name=".CameraRegistrationActivity"
+            android:label="@string/capture_photo_label"
             android:parentActivityName=".RegistrationActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

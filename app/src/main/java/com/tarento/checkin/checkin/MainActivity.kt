@@ -3,7 +3,6 @@ package com.tarento.checkin.checkin
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 
 class MainActivity : AppCompatActivity() {
@@ -14,7 +13,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun checkIn(view: View) {
-        val intent = Intent(this, LoginActivity::class.java)
+        val intent = Intent(this, CameraLoginActivity::class.java)
         startActivity(intent)
     }
 
