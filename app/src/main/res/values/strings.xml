@@ -58,4 +58,6 @@
     <string name="shift_options_label">Create and Edit Shifts</string>
     <string name="check_in_options_label">View and Export Check Ins</string>
     <string name="admin_options_label">Administrative Options</string>
+    <string name="create_organization_label">Create New Organization</string>
+    <string name="edit_organization_label">Edit Existing Organization</string>
 </resources>

@@ -129,6 +129,22 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".AdminOptions" />
         </activity>
+        <activity
+            android:name=".CreateOrganizationActivity"
+            android:label="@string/create_organization_label"
+            android:parentActivityName=".OrganizationActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".OrganizationActivity" />
+        </activity>
+        <activity
+            android:name=".EditOrganizationActivity"
+            android:label="@string/edit_organization_label"
+            android:parentActivityName=".OrganizationActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".OrganizationActivity" />
+        </activity>
     </application>
 
 </manifest>
