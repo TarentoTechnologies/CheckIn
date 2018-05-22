@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
-            android:text="@string/capture_photo"
+            android:text="@string/capture_photo_label"
             android:onClick="capturePhoto"/>
 
         <Button
