@@ -27,7 +27,7 @@ The application also allows administrators the abilty to create and edit shifts,
   - Capture timestamp
 - [ ] Integration with OpenCV facial recognition module
 - [ ] UI improvemnets
-- [ ] Code quality improvemnet
+- [ ] Code quality improvement
 
 ## Planned
 - [ ] Camera API
