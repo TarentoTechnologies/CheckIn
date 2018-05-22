@@ -17,4 +17,9 @@ class RegistrationActivity : AppCompatActivity() {
         startActivity(intent)
         finish()
     }
+
+    fun capturePhoto(view: View) {
+        val intent = Intent(this, CameraRegistrationActivity::class.java)
+        startActivity(intent)
+    }
 }
