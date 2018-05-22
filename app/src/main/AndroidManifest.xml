@@ -56,7 +56,29 @@
                 android:value=".CameraActivity" />
         </activity>
         <activity android:name=".UnsuccessfulLoginActivity" />
-        <activity android:name=".AdminCheckIn"></activity>
+        <activity
+            android:name=".AdminCheckIn"
+            android:parentActivityName=".UnsuccessfulLoginActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UnsuccessfulLoginActivity" />
+        </activity>
+        <activity
+            android:name=".RegistrationActivity"
+            android:label="@string/title_activity_registration"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".SuccessfulRegistrationActivity"
+            android:label="@string/registration_successful_label"
+            android:parentActivityName=".RegistrationActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RegistrationActivity" />
+        </activity>
     </application>
 
 </manifest>
