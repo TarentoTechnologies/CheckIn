@@ -23,10 +23,6 @@ The application also allows administrators the abilty to create and edit shifts,
 - [ ] User authentication with firebase
 - [ ] JSON data formatting: persistent data storage with Firebase realtime database
 - [ ] GPS API
-- [ ] Camera API
-  - Camera Preview
-  - Capturing Photo
-  - Storing Photo
 - [ ] Datetime API
   - Capture timestamp
 - [ ] Integration with OpenCV facial recognition module
@@ -34,19 +30,15 @@ The application also allows administrators the abilty to create and edit shifts,
 - [ ] Code quality improvemnet
 
 ## Planned
-- [ ] Set up interaction flow for user registration
-  - Name
-  - Phone Number
-  - Username
-  - Password
-  - ID type
-  - ID number
-- [ ] Admin screen for creating and editing organizations
-- [ ] Admin screen for creating and editing shifts
-- [ ] Admin screen for viewing, exporting, and commenting on all check ins
+- [ ] Camera API
+  - Camera Preview
+  - Capturing Photo
+  - Storing Photo
 
 ## Progress
-- [x] Done for the day :)
+- [x] Admin screen for creating and editing organizations
+- [x] Admin screen for creating and editing shifts
+- [x] Admin screen for viewing, exporting, and commenting on all check ins
 
 ## Done
 - [x] Selection screen
@@ -54,4 +46,15 @@ The application also allows administrators the abilty to create and edit shifts,
 - [x] Login screen
 - [x] Firebase gradle dependencies and installation
 - [x] Create android activities for standard user check-in
+- [x] Set up interaction flow for user registration
+  - Name
+  - Phone Number
+  - Username
+  - Password
+  - ID type
+  - ID number
 - [x] Create interaction flow for unsuccessful photo verification
+- [x] Rearrange interaction flow to support sign in through camera
+- [x] Add Kotlin Support
+- [x] Refactor Hardcoded References
+
