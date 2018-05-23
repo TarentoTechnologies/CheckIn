@@ -27,6 +27,14 @@
         <item>Ration Card</item>
         <item>PAN Card</item>
     </string-array>
+    <string name="organization_type_selector_label">Select the type of Organization</string>
+    <string-array name="organization_types">
+        <item>NGO</item>
+        <item>Sole Proprietorship</item>
+        <item>Limited Liability Partnership</item>
+        <item>Corporation</item>
+        <item>Other</item>
+    </string-array>
 
     <!-- Strings related to login -->
     <string name="email_label">Email Address</string>
@@ -62,4 +70,6 @@
     <string name="edit_organization_label">Edit Existing Organization</string>
     <string name="create_shift_label">Create New Shift</string>
     <string name="edit_shift_label">Edit Existing Shift</string>
+    <string name="organization_name_label">Name of the Organization</string>
+    <string name="create_label">Create</string>
 </resources>
