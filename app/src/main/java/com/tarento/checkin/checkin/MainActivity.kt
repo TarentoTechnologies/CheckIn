@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun checkIn(view: View) {
-        val intent = Intent(this, CameraLoginActivity::class.java)
+        val intent = Intent(this, CameraActivity::class.java)
         startActivity(intent)
     }
 

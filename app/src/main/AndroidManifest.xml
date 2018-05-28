@@ -164,10 +164,10 @@
         </activity>
         <activity android:name=".CameraActivity"
             android:label="@string/capture_photo_label"
-            android:parentActivityName=".RegistrationActivity">
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".RegistrationActivity" />
+                android:value=".MainActivity" />
         </activity>
     </application>
 
