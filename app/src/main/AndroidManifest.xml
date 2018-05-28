@@ -2,14 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.tarento.checkin.checkin">
 
+    <!-- Communicate on the internet -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Camera Permissions -->
     <uses-permission android:name="android.permission.CAMERA" />
-
-    <uses-feature android:name="android.hardware.camera" />
-
+    <uses-feature android:name="android.hardware.camera2.full" />
+    <!-- File Read and Write Permissions -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- GPS -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-
     <uses-feature android:name="android.hardware.location.gps" />
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
@@ -160,6 +161,13 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ShiftActivity" />
+        </activity>
+        <activity android:name=".CameraActivity"
+            android:label="@string/capture_photo_label"
+            android:parentActivityName=".RegistrationActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".RegistrationActivity" />
         </activity>
     </application>
 

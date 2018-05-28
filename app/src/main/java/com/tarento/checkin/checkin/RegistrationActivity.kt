@@ -19,7 +19,7 @@ class RegistrationActivity : AppCompatActivity() {
     }
 
     fun capturePhoto(view: View) {
-        val intent = Intent(this, CameraRegistrationActivity::class.java)
+        val intent = Intent(this, CameraActivity::class.java)
         startActivity(intent)
     }
 }
