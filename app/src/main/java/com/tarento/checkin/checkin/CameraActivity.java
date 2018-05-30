@@ -32,6 +32,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import org.opencv.android.OpenCVLoader;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -121,6 +123,13 @@ public class CameraActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_camera);
+
+        // OpenCV check
+        if (OpenCVLoader.initDebug()) {
+            Toast.makeText(getApplicationContext(), "OpenCV Loaded Successfully!", Toast.LENGTH_SHORT).show();
+        } else {
+            Toast.makeText(getApplicationContext(), "OpenCV Could Not Be Loaded.", Toast.LENGTH_SHORT).show();
+        }
 
         textureView = (TextureView)findViewById(R.id.textureView);
         //From Java 1.4 , you can use keyword 'assert' to check expression true or false
