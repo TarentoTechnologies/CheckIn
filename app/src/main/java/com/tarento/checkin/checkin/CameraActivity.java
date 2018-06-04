@@ -17,6 +17,7 @@ public class CameraActivity extends AppCompatActivity {
                     .replace(R.id.container, CameraFragment.newInstance())
                     .commit();
         }
+        // todo show graphic overlay
          options = new FirebaseVisionFaceDetectorOptions.Builder()
                  .setModeType(FirebaseVisionFaceDetectorOptions.FAST_MODE)
                  .setLandmarkType(FirebaseVisionFaceDetectorOptions.ALL_LANDMARKS)
