@@ -16,7 +16,7 @@
         <ImageView
             android:layout_width="@dimen/image_size"
             android:layout_height="@dimen/image_size"
-            android:src="@drawable/cross_circle_black"
+            android:src="@drawable/cross_circle"
             android:layout_margin="50dp"
             android:contentDescription="@string/cross_mark_description" />
 
