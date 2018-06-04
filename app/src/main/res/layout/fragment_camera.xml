@@ -11,13 +11,17 @@
         android:layout_alignParentTop="true" />
 
 
-    <Button
+    <ImageButton
         android:id="@+id/picture"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="@string/capture_photo_label" />
+        android:src="@drawable/camera_button"
+        android:layout_marginBottom="@dimen/activity_padding"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:contentDescription="@string/capture_photo_label" />
 
 
 </RelativeLayout>
