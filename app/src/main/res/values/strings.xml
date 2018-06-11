@@ -4,7 +4,6 @@
     <string name="title_activity_login">Sign in</string>
     <string name="title_activity_registration">Register New User Account</string>
 
-
     <!-- Button String Names -->
     <string name="check_in_new_user">Check In Another User</string>
     <string name="call_admin">Call Admin</string>
@@ -24,7 +23,7 @@
     <string name="id_selector_label">Choose an ID type</string>
     <string-array name="id_types_options">
         <item>Passport</item>
-        <item>Driver's License</item>
+        <item>Driver\'s License</item>
         <item>Aadhaar Card (National ID)</item>
         <item>Ration Card</item>
         <item>PAN Card</item>
@@ -47,9 +46,8 @@
     <string name="error_invalid_password">This password is too short</string>
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
+    <string name="permission_rationale">Contacts permissions are needed for providing email
+        completions.</string>
     <string name="manual_check_in">Manual Check In</string>
     <string name="id_proof_given">ID Proof Given</string>
     <string name="last_name_label">Last Name</string>
