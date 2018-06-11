@@ -68,6 +68,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Random;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
@@ -433,7 +434,19 @@ public class CameraFragment extends Fragment
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        mFile = new File(getActivity().getExternalFilesDir(null), "pic.jpg");
+        mFile = generateUniqueFile();
+    }
+
+    /**
+     * Generates unique filename using the fractional part of Random.nextDouble
+     * @return id the fractional part of random.nextDouble
+     */
+    private File generateUniqueFile() {
+        Random rand = new Random();
+        String id = String.valueOf(rand.nextDouble()).substring(2);
+        Log.e(TAG, "id is " + id);
+        return new File(getActivity().getExternalFilesDir(null),
+                "pic" + id + ".jpg");
     }
 
     @Override
@@ -827,6 +840,9 @@ public class CameraFragment extends Fragment
             // Orientation
             int rotation = activity.getWindowManager().getDefaultDisplay().getRotation();
             captureBuilder.set(CaptureRequest.JPEG_ORIENTATION, getOrientation(rotation));
+
+            // New File
+            mFile = generateUniqueFile();
 
             CameraCaptureSession.CaptureCallback CaptureCallback
                     = new CameraCaptureSession.CaptureCallback() {
