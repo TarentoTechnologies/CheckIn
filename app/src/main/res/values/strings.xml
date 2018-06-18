@@ -73,6 +73,10 @@
     <string name="organization_name_label">Name of the Organization</string>
     <string name="create_label">Create</string>
 
+    <!-- Face Detector -->
+    <string name="title_activity_photo_viewer">Photo Viewer</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
