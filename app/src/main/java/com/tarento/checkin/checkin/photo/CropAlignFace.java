@@ -1,10 +1,6 @@
 package com.tarento.checkin.checkin.photo;
 
-import android.icu.text.DisplayContext;
-import android.icu.text.LocaleDisplayNames;
-import android.os.Build;
-import android.os.Bundle;
-import android.service.wallpaper.WallpaperService;
+
 import android.util.SparseArray;
 import android.widget.ImageView;
 
