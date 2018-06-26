@@ -11,19 +11,11 @@ import android.widget.ImageView;
 import com.google.android.gms.vision.face.Face;
 import com.google.android.gms.vision.face.Landmark;
 
-import java.io.IOException;
-import java.nio.channels.AsynchronousChannel;
-import java.nio.channels.ClosedChannelException;
-import java.nio.channels.SelectableChannel;
-import java.nio.channels.SelectionKey;
-import java.nio.channels.Selector;
-import java.nio.channels.spi.SelectorProvider;
 
 public class CropAlignFace implements CropAlignFaceInterface {
 
     private SparseArray<Face> mFaces;
 
-    @Override
     public Double getDistance(Face face) {
 
         return null;
