@@ -225,7 +225,6 @@ public class DescriptorMatcher extends Algorithm {
         return;
     }
 
-
     //
     // C++:  void match(Mat queryDescriptors, vector_DMatch& matches, vector_Mat masks = vector_Mat())
     //
@@ -236,7 +235,7 @@ public class DescriptorMatcher extends Algorithm {
         Mat matches_mat = matches;
         Mat masks_mat = Converters.vector_Mat_to_Mat(masks);
         match_2(nativeObj, queryDescriptors.nativeObj, matches_mat.nativeObj, masks_mat.nativeObj);
-        
+
         return;
     }
 
