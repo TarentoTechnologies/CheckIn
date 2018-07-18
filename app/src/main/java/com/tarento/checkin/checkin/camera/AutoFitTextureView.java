@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.tarento.checkin.checkin;
+package com.tarento.checkin.checkin.camera;
 
 import android.content.Context;
 import android.util.AttributeSet;

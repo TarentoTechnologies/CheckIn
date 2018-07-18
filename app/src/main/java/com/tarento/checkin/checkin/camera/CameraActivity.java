@@ -1,9 +1,10 @@
-package com.tarento.checkin.checkin;
+package com.tarento.checkin.checkin.camera;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.google.firebase.ml.vision.face.FirebaseVisionFaceDetectorOptions;
+import com.tarento.checkin.checkin.R;
 
 public class CameraActivity extends AppCompatActivity {
 

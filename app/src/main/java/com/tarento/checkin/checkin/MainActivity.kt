@@ -4,6 +4,9 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.tarento.checkin.checkin.camera.CameraActivity
+import com.tarento.checkin.checkin.camera.LoginActivity
+import com.tarento.checkin.checkin.registration.RegistrationActivity
 
 class MainActivity : AppCompatActivity() {
 

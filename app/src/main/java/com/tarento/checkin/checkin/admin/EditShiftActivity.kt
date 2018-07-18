@@ -1,12 +1,13 @@
-package com.tarento.checkin.checkin
+package com.tarento.checkin.checkin.admin
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.tarento.checkin.checkin.R
 
-class CreateShiftActivity : AppCompatActivity() {
+class EditShiftActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_create_shift)
+        setContentView(R.layout.activity_edit_shift)
     }
 }

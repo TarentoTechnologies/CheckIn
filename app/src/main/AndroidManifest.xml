@@ -41,7 +41,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CameraLoginActivity"
+            android:name=".camera.CameraLoginActivity"
             android:label="@string/capture_photo_label"
             android:parentActivityName=".MainActivity">
             <meta-data
@@ -49,31 +49,31 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:name=".SuccessfulLoginActivity"
+            android:name=".registration.SuccessfulLoginActivity"
             android:label="@string/successful_login_label"
-            android:parentActivityName=".CameraLoginActivity">
+            android:parentActivityName=".camera.CameraLoginActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".CameraLoginActivity" />
+                android:value=".camera.CameraLoginActivity" />
         </activity>
         <activity
-            android:name=".UnsuccessfulLoginActivity"
+            android:name=".registration.UnsuccessfulLoginActivity"
             android:label="@string/unsuccessful_login_label"
-            android:parentActivityName=".CameraLoginActivity">
+            android:parentActivityName=".camera.CameraLoginActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".CameraLoginActivity" />
+                android:value=".camera.CameraLoginActivity" />
         </activity>
         <activity
-            android:name=".AdminCheckIn"
+            android:name=".admin.AdminCheckIn"
             android:label="@string/manual_check_in"
-            android:parentActivityName=".UnsuccessfulLoginActivity">
+            android:parentActivityName=".registration.UnsuccessfulLoginActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".UnsuccessfulLoginActivity" />
+                android:value=".registration.UnsuccessfulLoginActivity" />
         </activity>
         <activity
-            android:name=".RegistrationActivity"
+            android:name=".registration.RegistrationActivity"
             android:label="@string/title_activity_registration"
             android:parentActivityName=".MainActivity">
             <meta-data
@@ -81,23 +81,23 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:name=".SuccessfulRegistrationActivity"
+            android:name=".registration.SuccessfulRegistrationActivity"
             android:label="@string/registration_successful_label"
-            android:parentActivityName=".RegistrationActivity">
+            android:parentActivityName=".registration.RegistrationActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".RegistrationActivity" />
+                android:value=".registration.RegistrationActivity" />
         </activity>
         <activity
-            android:name=".CameraRegistrationActivity"
+            android:name=".camera.CameraRegistrationActivity"
             android:label="@string/capture_photo_label"
-            android:parentActivityName=".RegistrationActivity">
+            android:parentActivityName=".registration.RegistrationActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".RegistrationActivity" />
+                android:value=".registration.RegistrationActivity" />
         </activity>
         <activity
-            android:name=".LoginActivity"
+            android:name=".camera.LoginActivity"
             android:label="@string/title_activity_login"
             android:parentActivityName=".MainActivity">
             <meta-data
@@ -105,71 +105,71 @@
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:name=".AdminOptions"
+            android:name=".admin.AdminOptions"
             android:label="@string/admin_options_label"
-            android:parentActivityName=".LoginActivity">
+            android:parentActivityName=".camera.LoginActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".LoginActivity" />
+                android:value=".camera.LoginActivity" />
         </activity>
         <activity
-            android:name=".OrganizationActivity"
+            android:name=".admin.OrganizationActivity"
             android:label="@string/organization_options_label"
-            android:parentActivityName=".AdminOptions">
+            android:parentActivityName=".admin.AdminOptions">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".AdminOptions" />
+                android:value=".admin.AdminOptions" />
         </activity>
         <activity
-            android:name=".ShiftActivity"
+            android:name=".admin.ShiftActivity"
             android:label="@string/shift_options_label"
-            android:parentActivityName=".AdminOptions">
+            android:parentActivityName=".admin.AdminOptions">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".AdminOptions" />
+                android:value=".admin.AdminOptions" />
         </activity>
         <activity
-            android:name=".CheckInActivity"
+            android:name=".camera.CheckInActivity"
             android:label="@string/check_in_options_label"
-            android:parentActivityName=".AdminOptions">
+            android:parentActivityName=".admin.AdminOptions">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".AdminOptions" />
+                android:value=".admin.AdminOptions" />
         </activity>
         <activity
-            android:name=".CreateOrganizationActivity"
+            android:name=".admin.CreateOrganizationActivity"
             android:label="@string/create_organization_label"
-            android:parentActivityName=".OrganizationActivity">
+            android:parentActivityName=".admin.OrganizationActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".OrganizationActivity" />
+                android:value=".admin.OrganizationActivity" />
         </activity>
         <activity
-            android:name=".EditOrganizationActivity"
+            android:name=".admin.EditOrganizationActivity"
             android:label="@string/edit_organization_label"
-            android:parentActivityName=".OrganizationActivity">
+            android:parentActivityName=".admin.OrganizationActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".OrganizationActivity" />
+                android:value=".admin.OrganizationActivity" />
         </activity>
         <activity
-            android:name=".CreateShiftActivity"
+            android:name=".admin.CreateShiftActivity"
             android:label="@string/create_shift_label"
-            android:parentActivityName=".ShiftActivity">
+            android:parentActivityName=".admin.ShiftActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ShiftActivity" />
+                android:value=".admin.ShiftActivity" />
         </activity>
         <activity
-            android:name=".EditShiftActivity"
+            android:name=".admin.EditShiftActivity"
             android:label="@string/edit_shift_label"
-            android:parentActivityName=".ShiftActivity">
+            android:parentActivityName=".admin.ShiftActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ShiftActivity" />
+                android:value=".admin.ShiftActivity" />
         </activity>
         <activity
-            android:name=".CameraActivity"
+            android:name=".camera.CameraActivity"
             android:label="@string/capture_photo_label"
             android:parentActivityName=".MainActivity">
             <meta-data

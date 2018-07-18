@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.tarento.checkin.checkin;
+package com.tarento.checkin.checkin.camera;
 
 import android.Manifest;
 import android.app.Activity;
@@ -58,6 +58,8 @@ import android.view.TextureView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
+
+import com.tarento.checkin.checkin.R;
 
 import java.io.File;
 import java.io.FileOutputStream;

@@ -1,9 +1,12 @@
-package com.tarento.checkin.checkin
+package com.tarento.checkin.checkin.admin
 
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.tarento.checkin.checkin.R
+import com.tarento.checkin.checkin.camera.CameraRegistrationActivity
+import com.tarento.checkin.checkin.registration.SuccessfulLoginActivity
 
 class AdminCheckIn : AppCompatActivity() {
 

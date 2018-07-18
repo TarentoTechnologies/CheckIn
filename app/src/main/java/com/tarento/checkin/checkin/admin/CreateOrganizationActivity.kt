@@ -1,7 +1,8 @@
-package com.tarento.checkin.checkin
+package com.tarento.checkin.checkin.admin
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.tarento.checkin.checkin.R
 
 class CreateOrganizationActivity : AppCompatActivity() {
 

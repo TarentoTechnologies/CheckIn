@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/activity_padding"
-    tools:context=".OrganizationActivity">
+    tools:context=".admin.OrganizationActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
